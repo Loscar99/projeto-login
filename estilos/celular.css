@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+/*
+Paletas de Cores
+escuro: #131017
+medio: #312B35
+claro: #423B43
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+div#formulario {
+   
+    display: inline-flexbox;
+    margin: auto;
+    height: auto;
+    max-width: 250px;
+    padding: 0px 10px 15px 10px;
+    background-color: #ffffff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+
+div#imagem {
+    
+    display: inline-flexbox;
+    margin: auto;
+    width: 270px;
+    height: 200px;
+    background-image: url(../imagens/ceu-estrelado.jpg);
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+div#formulario h1 {
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-weight: normal;
+}
+
+div#formulario p {
+    text-align: center;
+    padding: 2px;
+}
+
+p.texto {
+    font-size: 1.1em;
+    margin: 5px;
+}
+
+div#formulario input {
+    box-shadow: 0px 0px 5px #312b35a8;
+    display: inline-block;
+    width: 90%;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 3px solid #312B35;
+}
+
+input#entrar {
+    border-radius: 10px;
+    width: 100%;
+    background-color: #312B35;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+
+}
+
+input#esqueci {
+    border-radius: 10px;
+    width: 100%;
+    background-color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px #312B35;
+}
+
+span {
+    padding: 5px 0px;
+    width: 100%;
+    color: #ffffff;
+    background-color: #312B35;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+div#tela {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section#login {
+    position: relative;
+    background-image: linear-gradient(to bottom, #b1a3b3 , #312B35) ;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+input:hover, input#esqueci:hover {
+    background-color: #bdb2be;
+}
+
+input#entrar:hover {
+    background-color: #544a5a;
+}
+
+input#entrar:active {
+    background-color: white;
+    color: black;
+}
