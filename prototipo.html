@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos-prototipo/celular.css" media="all">
+    <link rel="stylesheet" href="estilos-prototipo/tablet.css" media="screen">
+    <link rel="stylesheet" href="estilos-prototipo/pc.css" media="screen">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="tela">
+                <div id="imagem">
+                
+                </div>
+                <div id="formulario">
+                    <h1>Login</h1>
+                    <p class="texto"><strong>Seja bem-vindo(a)!</strong> <br>
+                    Por favor, faça seu login.</p>
+                    <form action="login.php" method="post" autocomplete="on">
+                        <p>
+                            <label for="iusuario"><span class="material-symbols-outlined">
+                                account_circle
+                                </span></label>
+                            <input type="email" name="usuario" id="iusuario" required placeholder="Seu e-mail" autocomplete="email">
+                        </p>
+                        <p>
+                            <label for="isenha"><span class="material-symbols-outlined">
+                                key
+                                </span></label>
+                            <input type="password" name="senha" id="isenha" required minlength="8" maxlength="8" placeholder="Sua senha" autocomplete="current-password">
+                        </p>
+                        <p>
+                            <input id="entrar" type="submit" value="Entrar">
+                        </p>
+                        <p>
+                           <input id="esqueci" type="button" value="Esqueci a senha &#9993;">
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
