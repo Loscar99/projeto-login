@@ -10,11 +10,11 @@ Paleta de cores:
 */
 
 :root {
-    --azul-oxford: #14488C;
+    --azul-oxford: #083667;
     --azul-medio: #186B8C;
-    --azul-cinza: #6583BF;
-    --lilas: #6D99F2;
-    --turquesa: #66CDD9;
+    --azul-cinza: #53639E;
+    --lilas: #699FF9;
+    --turquesa: #88dbe4;
 }
 
 *{
@@ -48,6 +48,9 @@ section#login {
     height: 500px;
     border-radius: 15px;
     box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
